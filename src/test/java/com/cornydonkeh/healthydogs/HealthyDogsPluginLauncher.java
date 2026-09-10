@@ -1,13 +1,13 @@
-package com.example;
+package com.cornydonkeh.healthydogs;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class HealthyDogsPluginLauncher
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(HealthyDogsPlugin.class);
 		RuneLite.main(args);
 	}
 }
